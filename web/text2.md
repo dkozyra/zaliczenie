@@ -1,0 +1,12 @@
+# Processor
+
+A processor, or "microprocessor," is a small chip that resides in [computers](/definition/computer) and other electronic devices. Its basic job is to receive [input](/definition/input) and provide the appropriate [output](/definition/output). While this may seem like a simple task, modern processors can handle trillions of calculations per second.
+
+The central processor of a computer is also known as the [CPU](/definition/cpu), or "central processing unit." This processor handles all the basic system instructions, such as processing [mouse](/definition/mouse) and [keyboard](/definition/keyboard) input and running [applications](/definition/application). Most [desktop computers](/definition/desktop_computer) contain a CPU developed by either Intel or AMD, both of which use the [x86](/definition/x86) processor [architecture](/definition/architecture). Mobile devices, such as [laptops](/definition/laptop) and [tablets](/definition/tablet) may use Intel and AMD CPUs, but can also use specific mobile processors developed by companies like ARM or Apple.
+
+Modern CPUs often include multiple processing cores, which work together to process instructions. While these "cores" are contained in one physical unit, they are actually individual processors. In fact, if you view your computer's performance with a system monitoring [utility](/definition/utility) like <span class="filename">Windows Task Manager</span> (Windows) or <span class="filename">Activity Monitor</span> (Mac OS X), you will see separate graphs for each processor. Processors that include two cores are called [dual-core](/definition/dualcore) processors, while those with four cores are called [quad-core](/definition/quadcore) processors. Some high-end workstations contain multiple CPUs with multiple cores, allowing a single machine to have eight, twelve, or even more processing cores.
+
+Besides the central processing unit, most desktop and laptop computers also include a [GPU](/definition/gpu). This processor is specifically designed for rendering graphics that are output on a [monitor](/definition/monitor). Desktop computers often have a [video card](/definition/videocard) that contains the GPU, while mobile devices usually contain a graphics chip that is integrated into the [motherboard](/definition/motherboard). By using separate processors for system and graphics processing, computers are able to handle graphic-intensive applications more efficiently.
+
+
+Updated: April 9, 2012

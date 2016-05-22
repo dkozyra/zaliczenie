@@ -1,0 +1,21 @@
+{
+  "name": "zaliczenie",
+  "version": "1.0.0",
+  "description": "zaliczenie",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-md2html": "0.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "dkozyra",
+  "license": "MIT"
+}
