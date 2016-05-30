@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>jbjhjhjh</title>
-    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Zaliczenie</title>
+    <link href="assets/bootstrap.min.css" rel="stylesheet">
     <script src="assets/main.js"></script>
-  </head>
+</head>
 
   <body>
   <div class="navbar-wrapper">
@@ -24,7 +23,6 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <!--<a class="navbar-brand" href="index.html">Zaliczenie</a>-->
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -33,16 +31,16 @@
               <li><a href="wzory.html">Wzory</a></li>
               <li><a href="mapa.html">Mapka</a></li>
               <li><a href="md.html">Markdown</a></li>
+                <li><a href="yslow.html">Yslow</a></li>
+
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <a href=" " class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Artykuły <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
+                  <li><a href="https://software.intel.com/en-us/blogs/2013/03/22/the-intel-xeon-phi-coprocessor-what-is-it-and-why-should-i-care-pt-1-fitting-it-all">Xeon Phi</a></li>
+                  <li><a href="http://www.nvidia.com/object/tesla-p100.html">Tesla P100</a></li>
+                  <li><a href="http://www.dwavesys.com/d-wave-two-system">D-Wave Quantum Computer</a></li>
+                  <li><a href="http://www.bbc.co.uk/news/technology-36203043">IBM Quantum Computer</a></li>
+
                 </ul>
               </li>
             </ul>
@@ -55,18 +53,15 @@
   </div>
   <div class="col-md-10 col-md-offset-1">
       <div id="carousel-example-generic2" class="carousel slide">
-        <!-- Wskaźniki w postaci kropek -->
         <ol class="carousel-indicators">
           <li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
           <li data-target="#carousel-example-generic2" data-slide-to="1"></li>
           <li data-target="#carousel-example-generic2" data-slide-to="2"></li>
         </ol>
 
-        <!-- Slajdy -->
         <div class="carousel-inner">
           <div class="item active">
             <img src="assets/img/cpu1.jpg" alt="CPU">
-            <!-- Opis slajdu -->
             <div class="carousel-caption">
               <h3>Processor</h3>
               <p>Intel Pentium 133 MMX</p>
@@ -75,7 +70,6 @@
 
           <div class="item">
             <img src="assets/img/circuit.jpg" alt="Circuit Board">
-            <!-- Opis slajdu -->
             <div class="carousel-caption">
               <h3>Circuit Board</h3>
               <p>Jakaś Płyta</p>
@@ -84,7 +78,6 @@
 
           <div class="item">
             <img src="assets/img/waferchip.jpg" alt="Wafer Chips">
-            <!-- Opis slajdu -->
             <div class="carousel-caption">
               <h3>Wafer Chips</h3>
               <p>AMD APU A10</p>
@@ -93,7 +86,6 @@
 
         </div>
 
-        <!-- Strzałki do przewijania -->
         <a class="left carousel-control" href="#carousel-example-generic2" data-slide="prev">
           <span class="icon-prev"></span>
         </a>
@@ -106,16 +98,30 @@
     <div class="col-md-6">
       <article>
         <h1>Processor</h1>
-        <p>A processor, or "microprocessor," is a small chip that resides in <a href="/definition/computer">computers</a> and other electronic devices.  Its basic job is to receive <a href="/definition/input">input</a> and provide the appropriate <a href="/definition/output">output</a>.  While this may seem like a simple task, modern processors can handle trillions of calculations per second.</p>
-        <p>The central processor of a computer is also known as the <a href="/definition/cpu">CPU</a>, or "central processing unit."  This processor handles all the basic system instructions, such as processing <a href="/definition/mouse">mouse</a> and <a href="/definition/keyboard">keyboard</a> input and running <a href="/definition/application">applications</a>.  Most <a href="/definition/desktop_computer">desktop computers</a> contain a CPU developed by either Intel or AMD, both of which use the <a href="/definition/x86">x86</a> processor <a href="/definition/architecture">architecture</a>.  Mobile devices, such as <a href="/definition/laptop">laptops</a> and <a href="/definition/tablet">tablets</a> may use Intel and AMD CPUs, but can also use specific mobile processors developed by companies like ARM or Apple.</p>
-        <p>Modern CPUs often include multiple processing cores, which work together to process instructions.  While these "cores" are contained in one physical unit, they are actually individual processors.  In fact, if you view your computer's performance with a system monitoring <a href="/definition/utility">utility</a> like <span class="filename">Windows Task Manager</span> (Windows) or <span class="filename">Activity Monitor</span> (Mac OS X), you will see separate graphs for each processor.  Processors that include two cores are called <a href="/definition/dualcore">dual-core</a> processors, while those with four cores are called <a href="/definition/quadcore">quad-core</a> processors.  Some high-end workstations contain multiple CPUs with multiple cores, allowing a single machine to have eight, twelve, or even more processing cores.</p>
-        <p>Besides the central processing unit, most desktop and laptop computers also include a <a href="/definition/gpu">GPU</a>.  This processor is specifically designed for rendering graphics that are output on a <a href="/definition/monitor">monitor</a>.  Desktop computers often have a <a href="/definition/videocard">video card</a> that contains the GPU, while mobile devices usually contain a graphics chip that is integrated into the <a href="/definition/motherboard">motherboard</a>.  By using separate processors for system and graphics processing, computers are able to handle graphic-intensive applications more efficiently.</p>
-        <p class="date floatRight">Updated: April 9, 2012</p>
-      </article>    </div>
+        <p>A processor, or "microprocessor," is a small chip that resides in computers and other electronic devices.  Its basic job is to receive input and provide the appropriate output.  While this may seem like a simple task, modern processors can handle trillions of calculations per second.</p>
+        <p>The central processor of a computer is also known as the CPU, or "central processing unit."  This processor handles all the basic system instructions, such as processing mouse and keyboard input and running applications.  Most desktop computers contain a CPU developed by either Intel or AMD, both of which use the processor architecture.  Mobile devices, such as laptops and tablets may use Intel and AMD CPUs, but can also use specific mobile processors developed by companies like ARM or Apple.</p>
+        <p>Modern CPUs often include multiple processing cores, which work together to process instructions.  While these "cores" are contained in one physical unit, they are actually individual processors.  In fact, if you view your computer's performance with a system monitoring utility like Windows Task Manager (Windows) or Activity Monitor (Mac OS X), you will see separate graphs for each processor.  Processors that include two cores are called dual-core processors, while those with four cores are called quad-core processors.  Some high-end workstations contain multiple CPUs with multiple cores, allowing a single machine to have eight, twelve, or even more processing cores.</p>
+        <p>Besides the central processing unit, most desktop and laptop computers also include a GPU.  This processor is specifically designed for rendering graphics that are output on a monitor.  Desktop computers often have a video card that contains the GPU, while mobile devices usually contain a graphics chip that is integrated into the motherboard.  By using separate processors for system and graphics processing, computers are able to handle graphic-intensive applications more efficiently.</p>
+      </article>
+    </div>
     <div class="col-md-6">
-      fgdhdfghfgdhdfhd hgfghf hfgvhgfhgfghfghfghfghfghfghfhgfhgfgfghfgfhgfhgfhghgfhgfghfhgfhf fghdfghdfhgdfhd
+        <article>
+      <h1>GPGPU</h1>
+      <p>A general-purpose GPU (GPGPU) is a graphics processing unit (GPU) that performs non-specialized calculations that would typically be conducted by the CPU (central processing unit). Ordinarily, the GPU is dedicated to graphics rendering.</p>
+      <p>GPGPUs are used for tasks that were formerly the domain of high-power CPUs, such as physics calculations, encryption/decryption, scientific computations and the generation of cypto currencies such as Bitcoin.  Because graphics cards are constructed for massive parallelism, they can dwarf the calculation rate of even the most powerful CPUs for many parallel processing tasks. The same shader cores that allow multiple pixels to be rendered simultaneously can similarly process multiple streams of data at the same time. Although a shader core is not nearly as complex as a CPU, a high-end GPU may have thousands of shader cores; in contrast, a multicore CPU might have eight or twelve cores.</p>
+      <p>There has been an increased focus on GPGPUs since DirectX 10 included unified shaders in its shader core specifications for Windows Vista. Higher-level languages are being developed all the time to ease programming for computations on the GPU.  Both AMD/ATI and Nvidia have approaches to GPGPU with their own APIs (OpenCL and CUDA, respectively).</p>
+      <p>The history of general-purpose GPUs Nvidia’s GeForce 3 was the first GPU that featured programmable shaders. At that time, the purpose was making rasterized 3D graphics more realistic; the new GPU capabilities enabled 3D transform, bump mapping, specular mapping and lighting computations. ATI’s 9700 GPU, the first DirectX 9-capable card approached the programming flexibility of CPUs, although few general purpose calculations were done at the time. With the introduction of Windows Vista, bundled with DirectX 10, unified shader cores were specified as part of the standard. GPU’s new-found potential demonstrated performance increases several orders of magnitude over CPU-based calculations.</p>
+      <p>GPGPUs and the future of computer graphics GPUs that were originally developed to speed rasterized 3D (as raytracing was too expensive calculation-wise) have surpassed the performance of CPUs for raytraced pre-rendered graphics. Although raytracing is not yet used in games, there have been real-time demonstrations. The advances of GPGPUs mean that in the not-too-distant future, computer graphics should be capable of the same kind of intensive geometry and lighting as 3D movies.</p>
+        </article>
     </div>
   </div>
+  <script type='text/javascript'>
+    $(document).ready(function() {
+      $('.carousel').carousel({
+        interval: 3000
+      })
+    });
+  </script>
 
   </body>
 </html>
